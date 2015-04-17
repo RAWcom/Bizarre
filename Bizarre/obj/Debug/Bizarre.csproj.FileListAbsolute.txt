@@ -1,0 +1,8 @@
+C:\Users\Administrator\documents\visual studio 2010\Projects\PublishAnnouncementEventReceiver\Bizarre\bin\Debug\Bizarre.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\PublishAnnouncementEventReceiver\Bizarre\bin\Debug\Bizarre.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\PublishAnnouncementEventReceiver\Bizarre\obj\Debug\Bizarre.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\PublishAnnouncementEventReceiver\Bizarre\obj\Debug\Bizarre.pdb
+C:\_StafixSolutions\Bizarre\Bizarre\bin\Debug\Bizarre.dll
+C:\_StafixSolutions\Bizarre\Bizarre\bin\Debug\Bizarre.pdb
+C:\_StafixSolutions\Bizarre\Bizarre\obj\Debug\Bizarre.dll
+C:\_StafixSolutions\Bizarre\Bizarre\obj\Debug\Bizarre.pdb

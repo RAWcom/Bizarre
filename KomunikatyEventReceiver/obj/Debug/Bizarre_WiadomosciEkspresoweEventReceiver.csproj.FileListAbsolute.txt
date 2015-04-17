@@ -1,0 +1,4 @@
+C:\Users\Administrator\documents\visual studio 2010\Projects\PublishAnnouncementEventReceiver\EventReceiverWithElevatedPrivilages\bin\Debug\EventReceiverWithElevatedPrivilages.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\PublishAnnouncementEventReceiver\EventReceiverWithElevatedPrivilages\bin\Debug\EventReceiverWithElevatedPrivilages.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\PublishAnnouncementEventReceiver\EventReceiverWithElevatedPrivilages\obj\Debug\EventReceiverWithElevatedPrivilages.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\PublishAnnouncementEventReceiver\EventReceiverWithElevatedPrivilages\obj\Debug\EventReceiverWithElevatedPrivilages.pdb

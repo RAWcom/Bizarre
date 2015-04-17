@@ -1,0 +1,5 @@
+c:\users\administrator\documents\visual studio 2010\Projects\PublishAnnouncementEventReceiver\PublishAnnouncementEventReceiver\obj\Debug\PublishAnnouncementEventReceiver.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2010\Projects\PublishAnnouncementEventReceiver\PublishAnnouncementEventReceiver\bin\Debug\PublishAnnouncementEventReceiver.dll
+c:\users\administrator\documents\visual studio 2010\Projects\PublishAnnouncementEventReceiver\PublishAnnouncementEventReceiver\bin\Debug\PublishAnnouncementEventReceiver.pdb
+c:\users\administrator\documents\visual studio 2010\Projects\PublishAnnouncementEventReceiver\PublishAnnouncementEventReceiver\obj\Debug\PublishAnnouncementEventReceiver.dll
+c:\users\administrator\documents\visual studio 2010\Projects\PublishAnnouncementEventReceiver\PublishAnnouncementEventReceiver\obj\Debug\PublishAnnouncementEventReceiver.pdb

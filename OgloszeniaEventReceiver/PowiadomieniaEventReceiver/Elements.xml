@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Receivers ListUrl="Lists/Powiadomienia">
+      <Receiver>
+        <Name>PowiadomieniaEventReceiverItemUpdated</Name>
+        <Type>ItemUpdated</Type>
+        <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+        <Class>PublishAnnouncementEventReceiver.PowiadomieniaEventReceiver.PowiadomieniaEventReceiver</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+
+  <Receiver>
+<Name>PowiadomieniaEventReceiverItemAdded</Name>
+<Type>ItemAdded</Type>
+<Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+<Class>PublishAnnouncementEventReceiver.PowiadomieniaEventReceiver.PowiadomieniaEventReceiver</Class>
+<SequenceNumber>1000</SequenceNumber>
+</Receiver>
+</Receivers>
+</Elements>

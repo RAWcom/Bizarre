@@ -1,0 +1,4 @@
+C:\Users\Administrator\documents\visual studio 2010\Projects\PublishAnnouncementEventReceiver\PublishAnnouncementEventReceiver\bin\Debug\Bizarre_OgloszeniaEventReceiver.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\PublishAnnouncementEventReceiver\PublishAnnouncementEventReceiver\bin\Debug\Bizarre_OgloszeniaEventReceiver.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\PublishAnnouncementEventReceiver\PublishAnnouncementEventReceiver\obj\Debug\Bizarre_OgloszeniaEventReceiver.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\PublishAnnouncementEventReceiver\PublishAnnouncementEventReceiver\obj\Debug\Bizarre_OgloszeniaEventReceiver.pdb

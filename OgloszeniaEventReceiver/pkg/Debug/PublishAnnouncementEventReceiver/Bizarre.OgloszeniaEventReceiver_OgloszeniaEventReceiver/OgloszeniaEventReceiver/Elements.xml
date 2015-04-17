@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Receivers  ListUrl="Lists/Announcements">
+
+  <Receiver>
+<Name>OgloszeniaEventReceiverItemAdded</Name>
+<Type>ItemAdded</Type>
+<Assembly>Bizarre.OgloszeniaEventReceiver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=66e55ebaad655bc7</Assembly>
+<Class>Bizarre.OgloszeniaEventReceiver.OgloszeniaEventReceiver</Class>
+<SequenceNumber>1000</SequenceNumber>
+</Receiver>
+<Receiver>
+<Name>OgloszeniaEventReceiverItemUpdated</Name>
+<Type>ItemUpdated</Type>
+<Assembly>Bizarre.OgloszeniaEventReceiver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=66e55ebaad655bc7</Assembly>
+<Class>Bizarre.OgloszeniaEventReceiver.OgloszeniaEventReceiver</Class>
+<SequenceNumber>1000</SequenceNumber>
+</Receiver>
+</Receivers>
+</Elements>

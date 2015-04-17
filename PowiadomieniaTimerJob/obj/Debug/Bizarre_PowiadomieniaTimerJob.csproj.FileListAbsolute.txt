@@ -1,0 +1,4 @@
+C:\Users\Administrator\documents\visual studio 2010\Projects\PublishAnnouncementEventReceiver\Custom_PowiadomieniaTimerJob\bin\Debug\Bizarre_PowiadomieniaTimerJob.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\PublishAnnouncementEventReceiver\Custom_PowiadomieniaTimerJob\bin\Debug\Bizarre_PowiadomieniaTimerJob.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\PublishAnnouncementEventReceiver\Custom_PowiadomieniaTimerJob\obj\Debug\Bizarre_PowiadomieniaTimerJob.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\PublishAnnouncementEventReceiver\Custom_PowiadomieniaTimerJob\obj\Debug\Bizarre_PowiadomieniaTimerJob.pdb

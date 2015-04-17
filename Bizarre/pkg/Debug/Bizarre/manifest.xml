@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="183288c1-67fb-4036-a5af-abbcadb5976a" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="Bizarre.dll" DeploymentTarget="GlobalAssemblyCache" />
+    <Assembly Location="Bizarre.KomunikatyEventReceiver.dll" DeploymentTarget="GlobalAssemblyCache" />
+    <Assembly Location="Bizarre.OgloszeniaEventReceiver.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="Bizarre_EventReceiversFeature\Feature.xml" />
+    <FeatureManifest Location="Bizarre_TimerJobFeature\Feature.xml" />
+  </FeatureManifests>
+</Solution>

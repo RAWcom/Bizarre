@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Receivers ListUrl="Lists/tabQuickMessages">
+
+
+  <Receiver>
+<Name>KomunikatyEventReceiverItemAdded</Name>
+<Type>ItemAdded</Type>
+<Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+<Class>Bizarre.KomunikatyEventReceiver.QuickMessageEventReceiver</Class>
+<SequenceNumber>1000</SequenceNumber>
+</Receiver>
+<Receiver>
+<Name>KomunikatyEventReceiverItemUpdated</Name>
+<Type>ItemUpdated</Type>
+<Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+<Class>Bizarre.KomunikatyEventReceiver.QuickMessageEventReceiver</Class>
+<SequenceNumber>1000</SequenceNumber>
+</Receiver>
+</Receivers>
+</Elements>

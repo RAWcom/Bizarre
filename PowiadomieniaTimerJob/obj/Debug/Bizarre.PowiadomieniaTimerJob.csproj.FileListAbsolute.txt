@@ -1,0 +1,4 @@
+C:\_StafixSolutions\Bizarre\PowiadomieniaTimerJob\bin\Debug\Bizarre.PowiadomieniaTimerJob.dll
+C:\_StafixSolutions\Bizarre\PowiadomieniaTimerJob\bin\Debug\Bizarre.PowiadomieniaTimerJob.pdb
+C:\_StafixSolutions\Bizarre\PowiadomieniaTimerJob\obj\Debug\Bizarre.PowiadomieniaTimerJob.dll
+C:\_StafixSolutions\Bizarre\PowiadomieniaTimerJob\obj\Debug\Bizarre.PowiadomieniaTimerJob.pdb

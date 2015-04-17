@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="Bizarre_Wiadomości Ekspresowe Event Receiver Feature" Description="My Event Receiver Feature" Id="e31443e4-7850-424e-b6af-d31b5265065d" Scope="Web">
+  <Properties>
+    <Property Key="GloballyAvailable" Value="true" />
+  </Properties>
+</Feature>

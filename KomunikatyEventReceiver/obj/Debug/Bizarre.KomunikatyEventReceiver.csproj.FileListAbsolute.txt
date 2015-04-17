@@ -1,0 +1,4 @@
+C:\_StafixSolutions\Bizarre\KomunikatyEventReceiver\bin\Debug\Bizarre.KomunikatyEventReceiver.dll
+C:\_StafixSolutions\Bizarre\KomunikatyEventReceiver\bin\Debug\Bizarre.KomunikatyEventReceiver.pdb
+C:\_StafixSolutions\Bizarre\KomunikatyEventReceiver\obj\Debug\Bizarre.KomunikatyEventReceiver.dll
+C:\_StafixSolutions\Bizarre\KomunikatyEventReceiver\obj\Debug\Bizarre.KomunikatyEventReceiver.pdb

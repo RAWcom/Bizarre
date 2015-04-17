@@ -1,0 +1,4 @@
+C:\Users\Administrator\documents\visual studio 2010\Projects\PublishAnnouncementEventReceiver\PublishAnnouncementEventReceiver\bin\Debug\PublishAnnouncementEventReceiver.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\PublishAnnouncementEventReceiver\PublishAnnouncementEventReceiver\bin\Debug\PublishAnnouncementEventReceiver.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\PublishAnnouncementEventReceiver\PublishAnnouncementEventReceiver\obj\Debug\PublishAnnouncementEventReceiver.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\PublishAnnouncementEventReceiver\PublishAnnouncementEventReceiver\obj\Debug\PublishAnnouncementEventReceiver.pdb

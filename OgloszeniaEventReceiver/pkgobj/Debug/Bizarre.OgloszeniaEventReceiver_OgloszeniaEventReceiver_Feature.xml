@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="Bizarre_OgłoszeniaEventReceiver Feature" Description="My Event Receiver Feature" Id="bc51d375-6419-4309-975b-3aab9b159723" Scope="Web">
+  <Properties>
+    <Property Key="GloballyAvailable" Value="true" />
+  </Properties>
+  <ElementManifests>
+    <ElementManifest Location="OgloszeniaEventReceiver\Elements.xml" />
+  </ElementManifests>
+</Feature>

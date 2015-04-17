@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bizarre", "Bizarre\Bizarre.csproj", "{924DD6BC-A87A-4DF0-9352-B89AAD7FB40B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3718713F-5312-437A-8F3A-737C99A2B13F} = {3718713F-5312-437A-8F3A-737C99A2B13F}
+		{4204F0DA-E284-4BAB-A7FB-45882C38623F} = {4204F0DA-E284-4BAB-A7FB-45882C38623F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bizarre.OgloszeniaEventReceiver", "OgloszeniaEventReceiver\Bizarre.OgloszeniaEventReceiver.csproj", "{3718713F-5312-437A-8F3A-737C99A2B13F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bizarre.PowiadomieniaTimerJob", "PowiadomieniaTimerJob\Bizarre.PowiadomieniaTimerJob.csproj", "{E5DC5CEA-ADE8-4F97-9998-7CD5817596FF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4204F0DA-E284-4BAB-A7FB-45882C38623F} = {4204F0DA-E284-4BAB-A7FB-45882C38623F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bizarre.KomunikatyEventReceiver", "KomunikatyEventReceiver\Bizarre.KomunikatyEventReceiver.csproj", "{4204F0DA-E284-4BAB-A7FB-45882C38623F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{924DD6BC-A87A-4DF0-9352-B89AAD7FB40B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{924DD6BC-A87A-4DF0-9352-B89AAD7FB40B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{924DD6BC-A87A-4DF0-9352-B89AAD7FB40B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{924DD6BC-A87A-4DF0-9352-B89AAD7FB40B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{924DD6BC-A87A-4DF0-9352-B89AAD7FB40B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{924DD6BC-A87A-4DF0-9352-B89AAD7FB40B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3718713F-5312-437A-8F3A-737C99A2B13F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3718713F-5312-437A-8F3A-737C99A2B13F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3718713F-5312-437A-8F3A-737C99A2B13F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3718713F-5312-437A-8F3A-737C99A2B13F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3718713F-5312-437A-8F3A-737C99A2B13F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3718713F-5312-437A-8F3A-737C99A2B13F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E5DC5CEA-ADE8-4F97-9998-7CD5817596FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5DC5CEA-ADE8-4F97-9998-7CD5817596FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5DC5CEA-ADE8-4F97-9998-7CD5817596FF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E5DC5CEA-ADE8-4F97-9998-7CD5817596FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5DC5CEA-ADE8-4F97-9998-7CD5817596FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5DC5CEA-ADE8-4F97-9998-7CD5817596FF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{4204F0DA-E284-4BAB-A7FB-45882C38623F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4204F0DA-E284-4BAB-A7FB-45882C38623F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4204F0DA-E284-4BAB-A7FB-45882C38623F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4204F0DA-E284-4BAB-A7FB-45882C38623F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4204F0DA-E284-4BAB-A7FB-45882C38623F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4204F0DA-E284-4BAB-A7FB-45882C38623F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

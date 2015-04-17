@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="435af038-0a9f-4901-908a-f8ea0aca1a0c" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="Bizarre.KomunikatyEventReceiver.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="Bizarre.KomunikatyEventReceiver_KomunikatyEventReceiver\Feature.xml" />
+  </FeatureManifests>
+</Solution>

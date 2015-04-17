@@ -1,0 +1,4 @@
+C:\_StafixSolutions\Bizarre\OgloszeniaEventReceiver\bin\Debug\Bizarre.OgloszeniaEventReceiver.dll
+C:\_StafixSolutions\Bizarre\OgloszeniaEventReceiver\bin\Debug\Bizarre.OgloszeniaEventReceiver.pdb
+C:\_StafixSolutions\Bizarre\OgloszeniaEventReceiver\obj\Debug\Bizarre.OgloszeniaEventReceiver.dll
+C:\_StafixSolutions\Bizarre\OgloszeniaEventReceiver\obj\Debug\Bizarre.OgloszeniaEventReceiver.pdb

@@ -1,0 +1,4 @@
+C:\Users\Administrator\documents\visual studio 2010\Projects\PublishAnnouncementEventReceiver\EventReceiverWithElevatedPrivilages\bin\Debug\Bizarre_WiadomosciEkspresoweER.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\PublishAnnouncementEventReceiver\EventReceiverWithElevatedPrivilages\bin\Debug\Bizarre_WiadomosciEkspresoweER.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\PublishAnnouncementEventReceiver\EventReceiverWithElevatedPrivilages\obj\Debug\Bizarre_WiadomosciEkspresoweER.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\PublishAnnouncementEventReceiver\EventReceiverWithElevatedPrivilages\obj\Debug\Bizarre_WiadomosciEkspresoweER.pdb

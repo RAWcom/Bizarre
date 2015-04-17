@@ -1,0 +1,2 @@
+C:\_StafixSolutions\Bizarre\KomunikatyEventReceiver\obj\Debug\Bizarre_KomunikatyEventReceiver.csprojResolveAssemblyReference.cache
+C:\_StafixSolutions\Bizarre\KomunikatyEventReceiver\obj\Debug\Bizarre_WiadomosciEkspresoweER.pdb

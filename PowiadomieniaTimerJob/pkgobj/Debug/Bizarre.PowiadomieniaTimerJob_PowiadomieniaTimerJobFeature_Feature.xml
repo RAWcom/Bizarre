@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="Bizarre_PowiadomieniaTimerJob Feature" Id="2b11f18d-2875-438c-9129-96d3147caeb2" ReceiverAssembly="Bizarre.PowiadomieniaTimerJob, Version=1.0.0.0, Culture=neutral, PublicKeyToken=09687469f717ae23" ReceiverClass="Bizarre.PowiadomieniaTimerJob.Features.PowiadomieniaTimerJobFeature.PowiadomieniaTimerJobFeatureEventReceiver" Scope="Site"></Feature>
