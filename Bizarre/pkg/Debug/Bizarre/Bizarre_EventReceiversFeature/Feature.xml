@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="Bizarre Event Receivers Feature" Id="7b392b03-060c-425c-ae3f-a2f9da636574" Scope="Web">
-  <ElementManifests>
-    <ElementManifest Location="KomunikatyEventReceiver\Elements.xml" />
-    <ElementManifest Location="OgloszeniaEventReceiver\Elements.xml" />
-  </ElementManifests>
-</Feature>

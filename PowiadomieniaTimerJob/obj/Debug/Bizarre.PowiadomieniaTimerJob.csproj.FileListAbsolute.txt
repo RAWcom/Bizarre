@@ -2,3 +2,8 @@ C:\_StafixSolutions\Bizarre\PowiadomieniaTimerJob\bin\Debug\Bizarre.Powiadomieni
 C:\_StafixSolutions\Bizarre\PowiadomieniaTimerJob\bin\Debug\Bizarre.PowiadomieniaTimerJob.pdb
 C:\_StafixSolutions\Bizarre\PowiadomieniaTimerJob\obj\Debug\Bizarre.PowiadomieniaTimerJob.dll
 C:\_StafixSolutions\Bizarre\PowiadomieniaTimerJob\obj\Debug\Bizarre.PowiadomieniaTimerJob.pdb
+C:\_GitHub\Bizarre\PowiadomieniaTimerJob\bin\Debug\Bizarre.PowiadomieniaTimerJob.dll
+C:\_GitHub\Bizarre\PowiadomieniaTimerJob\bin\Debug\Bizarre.PowiadomieniaTimerJob.pdb
+C:\_GitHub\Bizarre\PowiadomieniaTimerJob\obj\Debug\Bizarre.PowiadomieniaTimerJob.dll
+C:\_GitHub\Bizarre\PowiadomieniaTimerJob\obj\Debug\Bizarre.PowiadomieniaTimerJob.pdb
+C:\_GitHub\Bizarre\PowiadomieniaTimerJob\obj\Debug\Bizarre.PowiadomieniaTimerJob.csprojResolveAssemblyReference.cache

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="20488d34-bcb2-4428-9a96-be6a5061ba97" SharePointProductVersion="14.0">
-  <Assemblies>
-    <Assembly Location="Bizarre.PowiadomieniaTimerJob.dll" DeploymentTarget="GlobalAssemblyCache" />
-  </Assemblies>
-  <FeatureManifests>
-    <FeatureManifest Location="Bizarre.PowiadomieniaTimerJob_PowiadomieniaTimerJobFeature\Feature.xml" />
-  </FeatureManifests>
-</Solution>

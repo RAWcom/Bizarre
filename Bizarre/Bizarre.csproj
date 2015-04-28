@@ -53,12 +53,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Features\EventReceiversFeature\EventReceiversFeature.feature">
-      <FeatureId>{a4de8e77-7ae5-4a29-8d2d-df92c1f7109f}</FeatureId>
-    </None>
-    <None Include="Features\TimerJobFeature\TimerJobFeature.feature">
-      <FeatureId>{4c51bf4a-fd0b-4827-b17a-8ccec49c0aa3}</FeatureId>
-    </None>
     <None Include="key.snk" />
     <None Include="Package\Package.package">
       <PackageId>{183288c1-67fb-4036-a5af-abbcadb5976a}</PackageId>
@@ -68,12 +62,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Features\EventReceiversFeature\EventReceiversFeature.Template.xml">
-      <DependentUpon>EventReceiversFeature.feature</DependentUpon>
-    </Content>
-    <Content Include="Features\TimerJobFeature\TimerJobFeature.Template.xml">
-      <DependentUpon>TimerJobFeature.feature</DependentUpon>
-    </Content>
+    <Folder Include="Features\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" />

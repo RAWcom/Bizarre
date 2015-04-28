@@ -6,3 +6,7 @@ C:\_StafixSolutions\Bizarre\Bizarre\bin\Debug\Bizarre.dll
 C:\_StafixSolutions\Bizarre\Bizarre\bin\Debug\Bizarre.pdb
 C:\_StafixSolutions\Bizarre\Bizarre\obj\Debug\Bizarre.dll
 C:\_StafixSolutions\Bizarre\Bizarre\obj\Debug\Bizarre.pdb
+C:\_GitHub\Bizarre\Bizarre\bin\Debug\Bizarre.dll
+C:\_GitHub\Bizarre\Bizarre\bin\Debug\Bizarre.pdb
+C:\_GitHub\Bizarre\Bizarre\obj\Debug\Bizarre.dll
+C:\_GitHub\Bizarre\Bizarre\obj\Debug\Bizarre.pdb

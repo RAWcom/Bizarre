@@ -1,0 +1,4 @@
+C:\_GitHub\Bizarre\KomunikatyEventReceiver\bin\Release\Bizarre.KomunikatyEventReceiver.dll
+C:\_GitHub\Bizarre\KomunikatyEventReceiver\bin\Release\Bizarre.KomunikatyEventReceiver.pdb
+C:\_GitHub\Bizarre\KomunikatyEventReceiver\obj\Release\Bizarre.KomunikatyEventReceiver.dll
+C:\_GitHub\Bizarre\KomunikatyEventReceiver\obj\Release\Bizarre.KomunikatyEventReceiver.pdb

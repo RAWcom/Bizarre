@@ -1,0 +1,4 @@
+C:\_GitHub\Bizarre\Bizarre\bin\Release\Bizarre.dll
+C:\_GitHub\Bizarre\Bizarre\bin\Release\Bizarre.pdb
+C:\_GitHub\Bizarre\Bizarre\obj\Release\Bizarre.dll
+C:\_GitHub\Bizarre\Bizarre\obj\Release\Bizarre.pdb

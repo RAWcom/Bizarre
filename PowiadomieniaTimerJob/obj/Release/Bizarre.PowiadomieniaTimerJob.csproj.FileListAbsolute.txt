@@ -1,0 +1,4 @@
+C:\_GitHub\Bizarre\PowiadomieniaTimerJob\bin\Release\Bizarre.PowiadomieniaTimerJob.dll
+C:\_GitHub\Bizarre\PowiadomieniaTimerJob\bin\Release\Bizarre.PowiadomieniaTimerJob.pdb
+C:\_GitHub\Bizarre\PowiadomieniaTimerJob\obj\Release\Bizarre.PowiadomieniaTimerJob.dll
+C:\_GitHub\Bizarre\PowiadomieniaTimerJob\obj\Release\Bizarre.PowiadomieniaTimerJob.pdb

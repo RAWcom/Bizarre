@@ -11,6 +11,15 @@ namespace Bizarre.PowiadomieniaTimerJob
 
     public class PowiadomieniaTimerJob : Microsoft.SharePoint.Administration.SPJobDefinition
     {
+        /// <summary>
+        /// wskazuje który site ma zostać wybrany jako domyślny, koniecznie należy go przestawić przed wgraniem na produkcję
+        /// </summary>
+        /// <remarks>
+        /// true = sites["sites/bw"]
+        /// false = sites[0]
+        /// </remarks>
+        bool DEV_MODE = false; 
+
        
         /// <summary> 
         /// Default Consructor 
@@ -52,18 +61,19 @@ namespace Bizarre.PowiadomieniaTimerJob
                 SPWebApplication webApplication = this.Parent as SPWebApplication;
                 SPContentDatabase contentDb = webApplication.ContentDatabases[contentDbId];
 
-                // get a reference to the "Tasks" list in the RootWeb of the first site collection in the content database 
-                //SPWeb rootWeb = contentDb.Sites[0].RootWeb;
-                SPWeb rootWeb = contentDb.Sites["sites/BW"].RootWeb; //wartość developerska
-
-                SPList list = rootWeb.Lists.TryGetList("Powiadomienia");
-
-                if (list == null)
+                SPWeb rootWeb;
+                
+                if (DEV_MODE)
+                {
+                    rootWeb = contentDb.Sites["sites/BW"].RootWeb; //wartość developerska
+                }
+                else
                 {
                     rootWeb = contentDb.Sites[0].RootWeb;
-
-                    list = rootWeb.Lists.TryGetList("Powiadomienia");
                 }
+                
+                SPList list = rootWeb.Lists.TryGetList("Powiadomienia");
+
 
                 //if (list!=null)
                 //{
@@ -79,6 +89,7 @@ namespace Bizarre.PowiadomieniaTimerJob
 
                 if (list != null)
                 {
+                    //dla wszystkich rekordów o statusie niewysłane
                     StringBuilder sb = new StringBuilder(@"<OrderBy><FieldRef Name='ID' /></OrderBy><Where><Neq><FieldRef Name='Wys_x0142_ane' /><Value Type='Boolean'>1</Value></Neq></Where>");
 
                     string camlQuery = sb.ToString();

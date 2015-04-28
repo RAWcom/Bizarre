@@ -1,1 +1,1 @@
-bin\Debug\Custom_PowiadomieniaTimerJob.wsp
+bin\Debug\PowiadomieniaTimerJob.wsp
