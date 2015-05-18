@@ -3,4 +3,7 @@
   <Properties>
     <Property Key="GloballyAvailable" Value="true" />
   </Properties>
+  <ElementManifests>
+    <ElementManifest Location="KomunikatyEventReceiver\Elements.xml" />
+  </ElementManifests>
 </Feature>

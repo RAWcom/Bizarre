@@ -16,6 +16,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bizarre.PowiadomieniaTimerJ
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bizarre.KomunikatyEventReceiver", "KomunikatyEventReceiver\Bizarre.KomunikatyEventReceiver.csproj", "{4204F0DA-E284-4BAB-A7FB-45882C38623F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3718713F-5312-437A-8F3A-737C99A2B13F} = {3718713F-5312-437A-8F3A-737C99A2B13F}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

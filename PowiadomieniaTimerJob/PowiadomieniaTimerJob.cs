@@ -11,115 +11,76 @@ namespace Bizarre.PowiadomieniaTimerJob
 
     public class PowiadomieniaTimerJob : Microsoft.SharePoint.Administration.SPJobDefinition
     {
-        /// <summary>
-        /// wskazuje który site ma zostać wybrany jako domyślny, koniecznie należy go przestawić przed wgraniem na produkcję
-        /// </summary>
-        /// <remarks>
-        /// true = sites["sites/bw"]
-        /// false = sites[0]
-        /// </remarks>
-        bool DEV_MODE = false; 
 
-       
-        /// <summary> 
-        /// Default Consructor 
-        /// </summary> 
+        public static void CreateTimerJob(SPSite site)
+        {
+            var timerJob = new PowiadomieniaTimerJob(site);
+            timerJob.Schedule = new SPMinuteSchedule
+            {
+                BeginSecond = 0,
+                EndSecond = 0
+            };
+            timerJob.Update();
+        }
+
+        public static void DelteTimerJob(SPSite site)
+        {
+            site.WebApplication.JobDefinitions
+                .OfType<PowiadomieniaTimerJob>()
+                .Where(i => string.Equals(i.SiteUrl, site.Url, StringComparison.InvariantCultureIgnoreCase))
+                .ToList()
+                .ForEach(i => i.Delete());
+        }
+
         public PowiadomieniaTimerJob()
             : base()
         {
+
         }
 
-        /// <summary> 
-        /// Parameterized Constructor 
-        /// </summary> 
-        /// <param name="jobName">Name of Job to display in central admin</param> 
-        /// <param name="service">SharePoint Service </param> 
-        /// <param name="server">Name of the server</param> 
-        /// <param name="targetType">job type is for content db or job</param> 
-        public PowiadomieniaTimerJob(string jobName, SPService service, SPServer server, SPJobLockType targetType)
-            : base(jobName, service, server, targetType)
+        public PowiadomieniaTimerJob(SPSite site)
+            : base(string.Format("Bizarre_Powiadomienia Update Timer Job ({0})", site.Url), site.WebApplication, null, SPJobLockType.Job)
         {
+            Title = Name;
+            SiteUrl = site.Url;
         }
 
-        /// <summary> 
-        /// Parameterized Constructor 
-        /// </summary> 
-        /// <param name="jobName"></param> 
-        /// <param name="webApplication"></param> 
-        public PowiadomieniaTimerJob(string jobName, SPWebApplication webApplication)
-            : base(jobName, webApplication, null, SPJobLockType.ContentDatabase)
+        public string SiteUrl
         {
-            this.Title = "Bizarre_Powiadomienia Timer Job";
+            get { return (string)this.Properties["SiteUrl"]; }
+            set { this.Properties["SiteUrl"] = value; }
         }
 
-        public override void  Execute(Guid contentDbId)
+        public override void Execute(Guid targetInstanceId)
         {
+
             SPSecurity.RunWithElevatedPrivileges(delegate()
             {
-                
-                // get a reference to the current site collection's content database 
-                SPWebApplication webApplication = this.Parent as SPWebApplication;
-                SPContentDatabase contentDb = webApplication.ContentDatabases[contentDbId];
-
-                SPWeb rootWeb;
-                
-                if (DEV_MODE)
+                using (var site = new SPSite(SiteUrl))
                 {
-                    rootWeb = contentDb.Sites["sites/BW"].RootWeb; //wartość developerska
-                }
-                else
-                {
-                    rootWeb = contentDb.Sites[0].RootWeb;
-                }
-                
-                SPList list = rootWeb.Lists.TryGetList("Powiadomienia");
+                    var targetList = site.RootWeb.Lists.TryGetList("Powiadomienia");
 
-
-                //if (list!=null)
-                //{
-                //    //SPListItem li = list.AddItem();
-                //    //li["Title"] = DateTime.Now.ToString();
-                //    //li.Update();
-
-                //    SPListItem newListItem = list.Items.Add();
-                //    newListItem["Title"] = string.Concat("Powiadomienie : ", DateTime.Now.ToString());
-                //    newListItem.Update();
-                //}
-
-
-                if (list != null)
-                {
-                    //dla wszystkich rekordów o statusie niewysłane
-                    StringBuilder sb = new StringBuilder(@"<OrderBy><FieldRef Name='ID' /></OrderBy><Where><Neq><FieldRef Name='Wys_x0142_ane' /><Value Type='Boolean'>1</Value></Neq></Where>");
-
-                    string camlQuery = sb.ToString();
-
-                    SPQuery query = new SPQuery();
-                    query.Query = camlQuery;
-
-                    SPListItemCollection items = list.GetItems(query);
-                    //SPListItemCollection items = list.GetItems();
-
-                    if (items.Count > 0)
+                    if (targetList!=null)
                     {
-                        foreach (SPListItem item in items)
-                        {
-                            try
-                            {
-                                item["Title"] = string.Concat("TimerJob : ", DateTime.Now.ToString());
-                                item.Update();
+                        targetList.Items.Cast<SPListItem>()
+                            .Where(i => (bool)i["Wys_x0142_ane"] != true)
+                            .ToList()
+                            .ForEach(item =>
+                                {
+                                    try
+                                    {
+                                        item["Title"] = string.Concat("TimerJob : ", DateTime.Now.ToString());
+                                        item.Update();
 
-                                StartWorkflow(item, "Powiadomienie.OnUpdate");
-    
-                            }
-                            catch (Exception)
-                            { }
+                                        StartWorkflow(item, "Powiadomienie.OnUpdate");
 
-                        }
+                                    }
+                                    catch (Exception)
+                                    { }
+                                });
                     }
-                }
 
-                //rootWeb.Dispose();
+                }
             });
         }
 

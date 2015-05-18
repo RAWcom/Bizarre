@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="183288c1-67fb-4036-a5af-abbcadb5976a" solutionId="183288c1-67fb-4036-a5af-abbcadb5976a" resetWebServer="false" name="Bizarre" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
   <features>
-    <featureReference itemId="bc51d375-6419-4309-975b-3aab9b159723" projectPath="..\OgloszeniaEventReceiver\Bizarre.OgloszeniaEventReceiver.csproj" />
     <featureReference itemId="e31443e4-7850-424e-b6af-d31b5265065d" projectPath="..\KomunikatyEventReceiver\Bizarre.KomunikatyEventReceiver.csproj" />
+    <featureReference itemId="bc51d375-6419-4309-975b-3aab9b159723" projectPath="..\OgloszeniaEventReceiver\Bizarre.OgloszeniaEventReceiver.csproj" />
     <featureReference itemId="38517059-fe85-40af-95c4-451a77cd2e8f" projectPath="..\PowiadomieniaTimerJob\Bizarre.PowiadomieniaTimerJob.csproj" />
   </features>
 </package>
